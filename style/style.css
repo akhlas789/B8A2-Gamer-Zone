@@ -193,7 +193,7 @@ section {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    margin-bottom:5px ;
+    margin-bottom: 5px;
 }
 
 .section-description .btn {
@@ -215,3 +215,149 @@ section {
 }
 
 /* banner section 2 end hare */
+
+/* card section start hare */
+.card-title h2 {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.card-title span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.card-title p {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.card {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 50px auto 80px;
+}
+
+.image-container {
+    position: relative;
+    width: 300px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease;
+    border-radius: 10px;
+
+}
+
+.overlay p {
+    color: white;
+    font-size: 24px;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
+/* card section end hare */
+
+/* movie card section start hare */
+
+.movie-card {
+    display: flex;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.movie-description {
+    height: 50%;
+    align-items: center;
+}
+
+.movie-description h2 {
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    
+}
+
+.movie-description p {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.movie-img {
+    height: 50%;
+}
+
+.movie-img img {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* movie card section end hare */
+
+.review-container{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    max-width: 1300px;
+    margin: 0 auto;
+
+}
+.single-review{
+    flex-basis: 300px;
+    /* background-color: #e893cf; */
+    padding: 10px;
+    display: flex;
+
+
+}
+
+.single-review img{
+    width: 30px;
+    height: 30px;
+    margin-right:15px ;
+}
+.top-review{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}

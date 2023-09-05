@@ -41,6 +41,34 @@
         font-size: 45px;
     }
     
-
     /* banner section end hare */
+    /* banner section 2nd start hare */
+
+    .section-container{
+        flex-direction: column;
+    }
+    .section-img img{
+        max-width: 90%;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .section-description{
+        text-align: center;
+        flex-direction: column;
+    }
+
+    /* banner section end start hare */
+    /* cart section start hare */
+
+    .card-title h2{
+        font-size: 25px;
+    }
+    .card-title span{
+        font-size: 25px;
+    }
+    .card{
+        flex-direction: column;
+    }
+
+    /* cart section end hare */
 }
