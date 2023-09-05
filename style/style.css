@@ -161,3 +161,57 @@ nav {
 }
 
 /* banner section end hare */
+/* banner section 2 start hare */
+
+section {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+}
+
+.section-container {
+    display: flex;
+    max-width: 1300px;
+    margin: 0 auto 100px;
+}
+
+.section-description {
+    text-align: end;
+    margin-top: 20px;
+}
+
+.section-description h3 {
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+}
+
+.section-description p {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom:5px ;
+}
+
+.section-description .btn {
+    display: inline-flex;
+    padding: 15px 30px;
+    font-size: 20px;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    border: none;
+    margin-top: 15px;
+}
+
+.section-description h6 {
+    color: #534C64;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 0px;
+}
+
+/* banner section 2 end hare */
