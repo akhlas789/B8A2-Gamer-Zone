@@ -1,0 +1,46 @@
+@media screen and (max-width:566px) {
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-item-container{
+        flex-direction: column;
+    }
+    .nav-item-container a{
+        margin: 20px;
+    }
+    .nav-item-container .btn-section{
+        width: 100%;
+        margin: 20px;
+        /* margin-right: 40px; */
+    }
+    /* banner section start hare */
+
+    .banner-section{
+        flex-direction: column-reverse;
+        width: 90%;
+        margin: 0 auto;
+        
+    }
+    .bannner-img-container {
+        width:90%;
+        height: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .bannner-information{
+        flex-direction: column;
+        width:90%;
+        margin: 0 auto;
+        align-items: center;
+        /* background-repeat: no-repeat; */
+    }
+    .bannner-information h2{
+        font-size: 30px;
+    }
+    .bannner-information h1{
+        font-size: 45px;
+    }
+    
+
+    /* banner section end hare */
+}
